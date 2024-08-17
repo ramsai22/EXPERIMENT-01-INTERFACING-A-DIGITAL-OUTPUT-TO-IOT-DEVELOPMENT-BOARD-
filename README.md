@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 17/08/2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: PAIDA RAM SAI
+###  ROLL NO : 212223110034
+###  DEPARTMENT: IOT
 
 
 
@@ -87,12 +87,18 @@ The main features of LPC2148 include the following.
 
 ## STM 32 CUBE PROGRAM :
 
-
-
-
-
+``````
+while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(1000);
+         HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  HAL_Delay(1000);
+  }
+``````
 ## OUTPUT  :
- 
+ ![Screenshot 2024-08-17 104534](https://github.com/user-attachments/assets/17374f9c-794c-4bfb-81e0-e0a18e74e999)
+
  
  
  
